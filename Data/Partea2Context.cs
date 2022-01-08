@@ -19,5 +19,7 @@ namespace Partea2.Data
         public DbSet<Partea2.Models.Programare> Programare { get; set; }
 
         public DbSet<Partea2.Models.Client> Client { get; set; }
+
+        public DbSet<Partea2.Models.Serviciu> Serviciu { get; set; }
     }
 }
